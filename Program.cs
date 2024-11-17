@@ -34,5 +34,12 @@ class Program
         Console.WriteLine("Enter a number B: ");
         double b = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine($"The result of the multiplication: {a * b}");
+
+        // Деление чисел А и В
+        Console.WriteLine("Enter a number A: ");
+        double a = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Enter a number B: ");
+        double b = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine($"The result of the division: {a / b}");
     }
 }
