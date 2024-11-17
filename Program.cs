@@ -18,5 +18,10 @@ class Program
         Console.WriteLine("Enter a number B: ");
         double b = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine($"The result of addition: {a + b}");
+
+        // Вычитание чисел А и В
+        Console.WriteLine("Enter a number B: ");
+        double b = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine($"The result of the subtraction: {a - b}");
     }
 }
